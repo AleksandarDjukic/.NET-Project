@@ -1,0 +1,149 @@
+﻿body {
+    background-color: #454545;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input, textarea {
+    margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+    max-width: 80%;
+}
+
+form label {
+    color: #fff;
+}
+
+.kontakt-dugme {
+    width: 20% !important;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+#myNavbar ul li :hover {
+    background-color: red;
+}
+
+.navbar a {
+    color: whitesmoke !important;
+}
+
+a {
+    color: inherit !important;
+}
+
+.slikabanner {
+    height: 350px;
+    width: 100%;
+}
+
+.velikinaslov {
+    text-align: center;
+    color: white;
+}
+
+
+.cena {
+    text-align: center;
+    color: white;
+}
+
+.textdiv {
+    width: 80%;
+    margin-bottom: 30px;
+    height: 150px;
+    background-color: #eb4034;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+.naruci1 {
+    color: white;
+    background-color: #454545;
+    border: 1px solid black;
+    width: 15%;
+}
+
+    .naruci1:hover {
+        background-color: red;
+    }
+
+
+.textonama {
+    text-align: center;
+}
+
+.h1onama {
+    text-align: center;
+}
+
+.taklasa {
+    background-color: #eb4034;
+}
+
+.partneri {
+    text-align: center;
+}
+
+.naslov-partneri {
+    text-align: center;
+    color: white;
+}
+
+.partneri-slike {
+    width: 50%;
+    height: auto;
+    border: solid 2px white;
+}
+
+.partneri-text {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.col-sm-4 {
+    max-height: 300px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 150px;
+}
+
+.kartica {
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+    .kartica img {
+        margin: 0 auto;
+    }
+
+.onama-text {
+    color: #fff;
+}

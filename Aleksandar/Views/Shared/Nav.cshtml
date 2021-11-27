@@ -1,0 +1,22 @@
+﻿
+<img src="https://www.theoverclocker.com/wp-content/uploads/2017/03/msi-geforce-gtx-1080-ti-1.png" class="slikabanner" />
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("GPUstore", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Partners", "Partners", "Home")</li>
+            </ul>
+        </div>
+    </div>
+</nav>
